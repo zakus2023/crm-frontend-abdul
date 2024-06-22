@@ -11,7 +11,6 @@ const ClientLogin = ({
 }) => {
   return (
     <div>
-    
       <div className="login-container">
         <h1 className="sigin">Client Login</h1>
         <form onSubmit={handleSubmit}>
@@ -40,7 +39,8 @@ const ClientLogin = ({
         <p className="login">
           Do not have account ?<span>Sign up</span>
         </p>
-        <a className="forgot"
+        <a
+          className="forgot"
           onClick={() => {
             handleSwitch("reset");
           }}
@@ -57,7 +57,7 @@ const ClientLogin = ({
 
 ClientLogin.prototype = {
   handleChange: func.isRequired,
-  handleSwitch:func.isRequired,
+  handleSwitch: func.isRequired,
   email: PropTypes.string.isRequired,
   pass: PropTypes.string.isRequired,
 };
