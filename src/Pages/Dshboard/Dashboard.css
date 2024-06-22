@@ -1,0 +1,19 @@
+.row{
+    margin-bottom: 30px;
+}
+.col{
+    text-align: center;
+}
+.btn-dash{
+    font-size: 25px;
+    padding: 10px;
+    width: 300px;
+    height: 80px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: white;
+    background: rgb(54, 195, 242);
+    border: none;
+    outline: none;
+}
+
