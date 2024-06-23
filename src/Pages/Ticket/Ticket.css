@@ -1,0 +1,32 @@
+.infos{
+    text-align: left;
+}
+.tick{
+    text-align: right;
+}
+
+.msg-row{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-row{
+    width: 60%;
+    margin: 40px auto;
+
+}
+
+.intro span{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.chatbox{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.chatbox .chatbox-inner{
+    width: 100%;
+    
+}
