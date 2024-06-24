@@ -5,6 +5,7 @@ import PageBreadcrum from "../../Components/BreadcrumFolder/PageBreadcrum";
 import SearchTicketFrm from "../../Components/SearchTicketForm/SearchTicketFrm";
 import TicketTable from "../../Components/TicketTable/TicketTable";
 import dummydata from "../../Assets/dummydata/dummydata.json";
+import { Link } from "react-router-dom";
 
 const TicketList = () => {
   const [data, setData] = useState(dummydata); //data is what i will pass as a props inside the tickets table
@@ -41,7 +42,7 @@ const TicketList = () => {
       </Row>
       <Row>
         <Col>
-          <Button>Add New Ticket</Button>
+          <Link to="/addnewticket"><Button>Add New Ticket</Button></Link>
         </Col>
         <Col>
           <SearchTicketFrm handleChange={handleChange} str={filteredTickets} />

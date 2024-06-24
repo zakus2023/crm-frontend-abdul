@@ -1,6 +1,8 @@
 import React from "react";
 import "../TicketTable/TicketTable.css";
 import { Table } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
 
 const TicketTable = ({ tickets }) => {
   console.log(tickets);
@@ -19,14 +21,20 @@ const TicketTable = ({ tickets }) => {
           tickets.map((row) => (
             <tr key={row.id}>
               <td>{row.id}</td>
-              <td>{row.subjects}</td>
+              
+                <Link to={`/ticket/${row.id}`} className="lnk">
+                  <td>{row.subjects}</td>
+                </Link>
+              
               <td>{row.status}</td>
               <td>{row.addedOn}</td>
             </tr>
           ))
         ) : (
           <tr>
-            <td colSpan="4" className="text-center">No tickets to display</td>
+            <td colSpan="4" className="text-center">
+              No tickets to display
+            </td>
           </tr>
         )}
       </tbody>

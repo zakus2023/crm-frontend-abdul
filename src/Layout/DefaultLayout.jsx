@@ -1,14 +1,16 @@
 import React from "react";
 import Header from "./Partials/Header";
 import Footer from "./Partials/Footer";
+import { Navigate, Outlet } from "react-router-dom";
 
-const DefaultLayout = ({ children }) => {
+const DefaultLayout = () => {
+  const isAuth = true;
   return (
     <div className="default-layout">
       <header className="header">
         <Header />
       </header>
-      <main className="main">{children}</main>
+      {isAuth ? <main className="main"><Outlet/></main>:<Navigate to="/"/>}
       <footer className="footer">
         <Footer />
       </footer>

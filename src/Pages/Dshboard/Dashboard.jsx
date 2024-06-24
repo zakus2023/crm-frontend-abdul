@@ -4,6 +4,7 @@ import { Container, Row, Col, Button, Breadcrumb } from "react-bootstrap";
 import TicketTable from "../../Components/TicketTable/TicketTable";
 import dummydata from "../../Assets/dummydata/dummydata.json";
 import PageBreadcrum from "../../Components/BreadcrumFolder/PageBreadcrum";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   console.log(dummydata);
@@ -16,7 +17,7 @@ const Dashboard = () => {
       </Row>
       <Row className="row">
         <Col className="col">
-          <Button className="btn-dash"> Add new Ticket</Button>
+          <Link to="/addnewticket"><Button className="btn-dash"> Add new Ticket</Button></Link>
         </Col>
       </Row>
       <Row>

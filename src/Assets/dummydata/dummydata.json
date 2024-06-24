@@ -31,14 +31,58 @@
     "id": 2,
     "subjects": "ssl issue",
     "status": "Client response pending",
-    "addedOn": "2024-06-22"
+    "addedOn": "2024-06-22",
+    "history": [
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      }
+    ]
     
   },
   {
     "id": 3,
     "subjects": "ssl issue",
     "status": "Client response pending",
-    "addedOn": "2024-06-22"
+    "addedOn": "2024-06-22",
+    "history": [
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      }
+    ]
   },
   {
     "id": 4,
