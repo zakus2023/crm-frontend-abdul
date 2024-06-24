@@ -6,24 +6,23 @@ import dummydata from "../../Assets/dummydata/dummydata.json";
 import MessageHistory from "../../Components/MessageHistory/MessageHistory";
 import ChatBox from "../../Components/ChatBox/ChatBox";
 import { useParams } from "react-router-dom";
-import { array } from "prop-types";
 
 const Ticket = () => {
-  //const onTicket = dummydata[0];
-
   const params = useParams();
+  const ticketId = params.tId;
 
   const [message, setMessage] = useState("");
   const [ticket, setTicket] = useState("");
-//this will populate the the ticket landing page
+
+  console.log(dummydata);
+
   useEffect(() => {
-    for (let i = 0; i < array.length; i++) {
-      if (dummydata[i].id == params.id) {
+    for (let i = 0; i < dummydata.length; i++) {
+      if (dummydata[i].id == ticketId) {
         setTicket(dummydata[i]);
       }
-      continue;
     }
-  },[message,params.id]);
+  }, [ticketId]);
 
   const handleChange = (e) => {
     setMessage(e.target.value);
@@ -31,7 +30,6 @@ const Ticket = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Form submitted successfully");
   };
 
   return (
@@ -43,7 +41,6 @@ const Ticket = () => {
       </Row>
       <Row className="info-row">
         <Col className="infos">
-          <div>{params.id}</div>
           <div className="intro">
             Subject: <span>{ticket.subjects}</span>
           </div>
@@ -68,9 +65,9 @@ const Ticket = () => {
         <div className="chatbox-inner">
           <span>Message:</span>
           <ChatBox
-            msg={message}
             handleChange={handleChange}
             handleSubmit={handleSubmit}
+            message={message}
           />
         </div>
       </Row>

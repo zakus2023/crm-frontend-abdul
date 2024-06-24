@@ -88,7 +88,29 @@
     "id": 4,
     "subjects": "email issue",
     "status": "Client response pending",
-    "addedOn": "2024-06-22"
+    "addedOn": "2024-06-22",
+    "history": [
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      }
+    ]
   },
   {
     "id": 5,
@@ -100,7 +122,29 @@
     "id": 6,
     "subjects": "password issue",
     "status": "Client response pending",
-    "addedOn": "2024-06-22"
+    "addedOn": "2024-06-22",
+    "history": [
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      }
+    ]
   },
   {
     "id": 7,
@@ -118,7 +162,29 @@
     "id": 9,
     "subjects": "network issue",
     "status": "Admin response pending",
-    "addedOn": "2022-06-22"
+    "addedOn": "2022-06-22",
+    "history": [
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "Operator"
+      },
+      {
+        "date": "2024-06-22",
+        "message": "Lorem ipsum Lorem ipsum Lorem ipsum",
+        "sentBy": "client"
+      }
+    ]
   },
   {
     "id": 10,

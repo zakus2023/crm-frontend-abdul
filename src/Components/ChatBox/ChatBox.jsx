@@ -1,8 +1,8 @@
 import React from "react";
 import "./ChatBox.css";
 
-const ChatBox = ({ handleChange, handleSubmit,msg }) => {
-  console.log(msg);
+const ChatBox = ({ handleChange, handleSubmit, message }) => {
+  console.log(message);
   return (
     <div className="chbox">
       <form onSubmit={handleSubmit}>
@@ -10,7 +10,7 @@ const ChatBox = ({ handleChange, handleSubmit,msg }) => {
           name="detail"
           id="detail"
           rows={5}
-          value={msg}
+          value={message}
           onChange={handleChange}
         ></textarea>
         <button>Reply</button>
